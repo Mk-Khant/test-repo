@@ -4,6 +4,26 @@
   <artifactId>Exception_Pj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+	  <project.buid.sourceEncoding>UTF-8</project.buid.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+	  <dependency>
+	  	<groupId>org.junit.jupiter</groupId>
+	  	<artifactId>junit-jupiter-api</artifactId>
+	  	<version>5.12.0</version>
+	  	<scope>test</scope>
+	  </dependency>
+	  
+	  <dependency>
+	  	<groupId>org.junit.jupiter</groupId>
+	  	<artifactId>junit-jupiter-engine</artifactId>
+	  	<version>5.12.0</version>
+	  	<scope>test</scope>
+	  </dependency>
+  </dependencies>
+  
   
   <build>
 	  <plugins>
